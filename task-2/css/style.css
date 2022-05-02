@@ -1,0 +1,56 @@
+:root {
+    font-size: 62.5%;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5;
+  }
+  
+  body {
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    padding: 1rem;
+  }
+  
+  .container {
+    display: grid;
+    height: 98vh;
+    border: 5px solid red;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+  
+  .item {
+    border: 5px solid #6b00ff;
+    display: grid;
+    justify-content: center;
+  }
+  
+  .two {
+    background-color: #6b00ff;
+    grid-column: 2 / span 2;
+  }
+  
+  .six {
+    background-color: #009200;
+    grid-column: 3 / 5;
+  }
+  
+  .nine {
+    background-color: #fcb000;
+  
+    grid-row: 3 / span 2;
+    grid-column: 2;
+  }
+  .ten {
+    background-color: #8a0081;
+  
+    grid-row: 3 / span 2;
+    grid-column: 4;
+  }
+  
